@@ -1,0 +1,31 @@
+{
+    "name": "mke_s14_dht11_microbit",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "MakerEdu_Hardware": "github:makereduvn/MKE_ONE_MICROBIT#v0.0.4"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable8.0",
+        "tag": "v8.0.21",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c85687e83d69427fc4cc002eac82da796bae896c",
+        "target": "8.0.21",
+        "pxt": "12.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
